@@ -61,7 +61,7 @@ outputs/
 
 ## Algorithm Notes
 
-### A* Search
+# A* Search
 - Open set: `heapq` on `(f, h)` tuples (tie-break favors deeper nodes).
 - Closed set: Python `set` on positions.
 - Admissible for 4-connected grids with Manhattan heuristic → optimal.
@@ -83,11 +83,11 @@ outputs/
 
 How to Run
 bash
-# 1. Create project structure (all files above in their respective folders)
-# 2. Install dependencies
+### 1. Create project structure (all files above in their respective folders)
+### 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Run full benchmark
+### 3. Run full benchmark
 python main.py
 
 # 4. Or a single demo
