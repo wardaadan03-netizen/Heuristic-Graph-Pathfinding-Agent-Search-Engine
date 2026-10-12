@@ -1,0 +1,109 @@
+# ==========================================================
+#  Heuristic Graph Pathfinding Agent Search Engine
+#  .gitignore
+# ==========================================================
+
+# ---------- Python bytecode / cache ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ---------- Distribution / packaging ----------
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+ENV/
+env/
+.env
+.conda/
+.python-version
+
+# ---------- Test / coverage ----------
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+*.cover
+nosetests.xml
+
+# ---------- Jupyter / notebooks ----------
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ---------- Type checkers / linters / formatters ----------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pyre/
+.pytype/
+.pyright
+.pylint.d
+
+# ---------- IDE / editor ----------
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.project
+.classpath
+.settings/
+
+# ---------- OS metadata ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---------- Project-generated outputs ----------
+# Keep the folder skeleton but ignore generated artifacts.
+outputs/logs/*.csv
+outputs/logs/*.json
+outputs/figures/*.png
+outputs/figures/*.pdf
+outputs/figures/*.svg
+
+# If you want to keep empty folders in git, uncomment the two lines below
+# and add `outputs/logs/.gitkeep` and `outputs/figures/.gitkeep` manually.
+# outputs/**/*
+# !outputs/**/.gitkeep
+
+# ---------- Misc ----------
+*.log
+*.bak
+*.tmp
+*.orig
+*.rej
