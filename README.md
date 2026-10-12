@@ -90,7 +90,7 @@ pip install -r requirements.txt
 ### 3. Run full benchmark
 python main.py
 
-# 4. Or a single demo
+### 4. Or a single demo
 python main.py --demo
 Sample Output
 text
