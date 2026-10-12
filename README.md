@@ -92,8 +92,9 @@ python main.py
 
 ### 4. Or a single demo
 python main.py --demo
+
 Sample Output
-text
+
 [Benchmark] Scenario 0: 20x20 | density=0.1 | seed=1
 [Benchmark] Scenario 1: 20x20 | density=0.25 | seed=2
 ...
